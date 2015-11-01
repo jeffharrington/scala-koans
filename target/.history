@@ -1,2 +1,3 @@
 test:compile
 ~test-only org.functionalkoans.forscala.Koans 
+~test-only org.functionalkoans.forscala.Koans

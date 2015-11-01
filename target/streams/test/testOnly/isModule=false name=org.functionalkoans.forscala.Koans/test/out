@@ -89,16 +89,23 @@
 [0m[[0minfo[0m] [0m[32m- An abstract class, as in Java, cannot be instantiated and only inherited[0m[0m
 [0m[[0minfo[0m] [0m[32m- A class can be placed inside an abstract class just like in java[0m[0m
 [0m[[0minfo[0m] [0m[32mAboutOptions:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Option can have one of two values - Some or None[0m[0m
+[0m[[0minfo[0m] [0m[32m- Represent null with None because null is a bad idea[0m[0m
+[0m[[0minfo[0m] [0m[32m- Provide a default value for None[0m[0m
+[0m[[0minfo[0m] [0m[32m- checking whether option has value[0m[0m
+[0m[[0minfo[0m] [0m[32m- Option can also be used with pattern matching[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutObjects:[0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
-[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Option can have one of two values - Some or None" of suite "AboutOptions" [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "An object is a singleton. One object -- that's it. This object is a replacement of static in Java,[0m[0m
+[0m[[0minfo[0m] [0m[33m and is called upon much in the same way" of suite "AboutObjects" [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32mInfo Provided - AboutOptions[0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - AboutObjects[0m[0m
 [0m[[0minfo[0m] [0m[32mInfo Provided - Koans[0m[0m
