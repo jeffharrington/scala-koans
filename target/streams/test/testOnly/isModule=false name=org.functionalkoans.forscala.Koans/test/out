@@ -114,12 +114,16 @@
 [0m[[0minfo[0m] [0m[32m- Tuples may be of mixed type[0m[0m
 [0m[[0minfo[0m] [0m[32m- Tuples items can be swapped on a Tuple 2[0m[0m
 [0m[[0minfo[0m] [0m[32mAboutHigherOrderFunctions:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Meet lambda. Anonymous function[0m[0m
+[0m[[0minfo[0m] [0m[32m- An anonymous function can also take on a different look by taking out the brackets[0m[0m
+[0m[[0minfo[0m] [0m[32m- Meet closure. Closure is any function that closes over the environment[0m[0m
+[0m[[0minfo[0m] [0m[32m- We can take that closure and throw into a method and it will still hold the environment[0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
-[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Meet lambda. Anonymous function" of suite "AboutHigherOrderFunctions" [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "function returning another function" of suite "AboutHigherOrderFunctions" [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m

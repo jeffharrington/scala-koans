@@ -24,18 +24,18 @@ class AboutHigherOrderFunctions extends KoanSuite {
     val result4 = lambda4(3)
     val result5 = lambda5(3)
 
-    result should be(__)
-    result1andhalf should be(__)
-    result2 should be(__)
-    result3 should be(__)
-    result4 should be(__)
-    result5 should be(__)
+    result should be(4)
+    result1andhalf should be(4)
+    result2 should be(4)
+    result3 should be(4)
+    result4 should be(4)
+    result5 should be(4)
   }
 
   koan("An anonymous function can also take on a different look by taking out the brackets") {
     def lambda = (x: Int) => x + 1
     def result = lambda(5)
-    result should be(__)
+    result should be(6)
   }
 
   koan("Meet closure. Closure is any function that closes over the environment") {
@@ -46,12 +46,12 @@ class AboutHigherOrderFunctions extends KoanSuite {
     }
 
     val result1 = closure(10)
-    result1 should be(__)
+    result1 should be(11)
 
     incrementer = 2
 
     val result2 = closure(10)
-    result2 should be(__)
+    result2 should be(12)
   }
 
   koan("We can take that closure and throw into a method and it will still hold the environment") {
@@ -62,11 +62,11 @@ class AboutHigherOrderFunctions extends KoanSuite {
     def closure = (x: Int) => x + incrementer
 
     val result = summation(10, closure)
-    result should be(__)
+    result should be(13)
 
     incrementer = 4
     val result2 = summation(10, closure)
-    result2 should be(__)
+    result2 should be(14)
   }
 
   koan("function returning another function") {
