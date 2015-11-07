@@ -140,16 +140,31 @@
 [0m[[0minfo[0m] [0m[32m- Some is the opposite of None for Option types[0m[0m
 [0m[[0minfo[0m] [0m[32m- Option.getOrElse can be used to provide a default in the case of None[0m[0m
 [0m[[0minfo[0m] [0m[32mAboutLists:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Eq tests identity (same object)[0m[0m
+[0m[[0minfo[0m] [0m[32m- == tests equality (same content)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Nil lists are identical, even of different types[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists are easily created[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can be accessed via head and tail[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can accessed by position[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists are immutable[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists have many useful methods[0m[0m
+[0m[[0minfo[0m] [0m[32m- Functions over lists can use _ as shorthand[0m[0m
+[0m[[0minfo[0m] [0m[32m- Functions over lists can use () instead of {}[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can be 'reduced' with a mathematical operation[0m[0m
+[0m[[0minfo[0m] [0m[32m- Foldleft is like reduce, but with an explicit starting value[0m[0m
+[0m[[0minfo[0m] [0m[32m- You can create a list from a range[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists reuse their tails[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutMaps:[0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
-[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Eq tests identity (same object)" of suite "AboutLists" [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Maps can be created easily" of suite "AboutMaps" [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32mInfo Provided - AboutLists[0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - AboutMaps[0m[0m
 [0m[[0minfo[0m] [0m[32mInfo Provided - Koans[0m[0m
