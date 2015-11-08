@@ -186,16 +186,33 @@
 [0m[[0minfo[0m] [0m[32m- The difference between two sets can be obtained easily[0m[0m
 [0m[[0minfo[0m] [0m[32m- Set equivalency is independent of order[0m[0m
 [0m[[0minfo[0m] [0m[32mAboutFormatting:[0m[0m
+[0m[[0minfo[0m] [0m[32m- String can be placed in format[0m[0m
+[0m[[0minfo[0m] [0m[32m- Character Literals can be an a single character[0m[0m
+[0m[[0minfo[0m] [0m[32m- Character Literals can be an escape sequence, including octal or hexidecimal[0m[0m
+[0m[[0minfo[0m] [0m[32m- Formatting can also include numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- Formatting can be used for any number of items, like a string and a number[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutStringInterpolation:[0m[0m
+[0m[[0minfo[0m] [0m[32m- String can be placed in not only in a format method call[0m[0m
+[0m[[0minfo[0m] [0m[32mbut inside a string if you precede the string with an s[0m[0m
+[0m[[0minfo[0m] [0m[32myou can then refer to any value or variable within scope[0m[0m
+[0m[[0minfo[0m] [0m[32mThis is called string interpolation.[0m[0m
+[0m[[0minfo[0m] [0m[32m- String interpolation can include expressions which can[0m[0m
+[0m[[0minfo[0m] [0m[32minclude numbers and strings[0m[0m
+[0m[[0minfo[0m] [0m[32m- If your numbers need special formatting, you can use an[0m[0m
+[0m[[0minfo[0m] [0m[32m`f` prefix before the string instead of an `s`. Once an `f`[0m[0m
+[0m[[0minfo[0m] [0m[32mis placed in front of the string you can apply any printf format rule[0m[0m
+[0m[[0minfo[0m] [0m[32musing a % and the format rule after the variable reference.[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutPatternMatching:[0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
-[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "String can be placed in format" of suite "AboutFormatting" [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Pattern matching returns something" of suite "AboutPatternMatching" [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32mInfo Provided - AboutFormatting[0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - AboutPatternMatching[0m[0m
 [0m[[0minfo[0m] [0m[32mInfo Provided - Koans[0m[0m
