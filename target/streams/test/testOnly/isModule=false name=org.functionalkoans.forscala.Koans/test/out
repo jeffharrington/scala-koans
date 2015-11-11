@@ -203,16 +203,34 @@
 [0m[[0minfo[0m] [0m[32mis placed in front of the string you can apply any printf format rule[0m[0m
 [0m[[0minfo[0m] [0m[32musing a % and the format rule after the variable reference.[0m[0m
 [0m[[0minfo[0m] [0m[32mAboutPatternMatching:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching returns something[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching can return complex somethings[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching can match complex expressions[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching can wildcard parts of expressions[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching can substitute parts of expressions[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching can done on regular expression groups[0m[0m
+[0m[[0minfo[0m] [0m[32m- A backquote can be used to refer to a stable variable in scope to create a case statement.[0m[0m
+[0m[[0minfo[0m] [0m[32m This prevents what is called \'Variable Shadowing\'[0m[0m
+[0m[[0minfo[0m] [0m[32m- A backquote can be used to refer to a method parameter as a stable variable to create a case statement.[0m[0m
+[0m[[0minfo[0m] [0m[32m- To pattern match against a List, the list can be broken out into parts,[0m[0m
+[0m[[0minfo[0m] [0m[32m in this case the head (x) and the tail(xs). Since the case doesn't terminate in Nil,[0m[0m
+[0m[[0minfo[0m] [0m[32m xs is interpreted as the rest of the list[0m[0m
+[0m[[0minfo[0m] [0m[32m- To obtain the second you can expand on the pattern. Where x is the first element, y[0m[0m
+[0m[[0minfo[0m] [0m[32m is the second element, and xs is the rest. [0m[0m
+[0m[[0minfo[0m] [0m[32m- Same koan as above, but we are pattern matching of a list with only one item![0m[0m
+[0m[[0minfo[0m] [0m[32m- To pattern match against List, you can also establish a pattern match[0m[0m
+[0m[[0minfo[0m] [0m[32m if you know the exact number of elements in a List[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutCaseClasses:[0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
-[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Pattern matching returns something" of suite "AboutPatternMatching" [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Case classes have an automatic equals method that works" of suite "AboutCaseClasses" [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32mInfo Provided - AboutPatternMatching[0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - AboutCaseClasses[0m[0m
 [0m[[0minfo[0m] [0m[32mInfo Provided - Koans[0m[0m
