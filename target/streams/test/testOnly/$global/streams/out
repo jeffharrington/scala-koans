@@ -1,5 +1,5 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(org.functionalkoans.forscala.Koans, sbt.SubclassFingerprintWrapper@14faadbd, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(org.functionalkoans.forscala.Koans, sbt.SubclassFingerprintWrapper@3f2f42b3, false, [SuiteSelector])[0m
 [0m[[0mdebug[0m] [0mSummary for ScalaTest not available.[0m
-[0m[[0minfo[0m] [0mPassed: Total 171, Failed 0, Errors 0, Passed 171[0m
+[0m[[0minfo[0m] [0mPassed: Total 177, Failed 0, Errors 0, Passed 177[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	org.functionalkoans.forscala.Koans[0m
